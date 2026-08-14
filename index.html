@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vox Alto de Pinheiros | Escola de Oratória e Comunicação</title>
+  <meta name="description"
+    content="Domine a oratória com a metodologia prática da Vox no Alto de Pinheiros - SP. Cursos de Oratória presenciais para liderança, carreira e superação do medo de falar em público.">
+  <meta name="keywords"
+    content="Vox, Alto de Pinheiros, curso de oratoria, falar em publico, comunicacao presencial, lideranca, Sao Paulo">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css?v=4.4">
+  <link rel="stylesheet" href="brand.css?v=1.0">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       HEADER
+       ========================================================================== -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo-link" id="headerLogo" aria-label="Vox Alto de Pinheiros - início">
+        <span class="brand-logo brand-logo--header">
+          <img src="assets/vox2you-logo-branco.png" alt="Vox - Fale. Comunique. Transforme." width="1821" height="436">
+        </span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#metodologia" class="nav-link">Metodologia</a></li>
+          <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+          <li><a href="#cursos" class="nav-link">Cursos</a></li>
+          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#hero-form" class="btn btn-outline">
+          <i class="fa-solid fa-calendar-check"></i> Agendar Visita
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu" aria-expanded="false"
+          aria-controls="navMenu">
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO + FORM SECTION
+       ========================================================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Domine a Oratória e Conquiste <span>Autoridade Inquestionável</span>
+        </h1>
+
+        <p class="hero-description">
+          Transforme sua comunicação com a metodologia prática da maior rede de escolas de oratória da América
+          Latina. Perca a insegurança, encante plateias e acelere sua carreira presencialmente.
+        </p>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Treinamento presencial intensivo com simulação de público real</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Gravação de performances e mentoria individualizada com feedback</span>
+          </div>
+          <div class="highlight-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Turmas reduzidas para máximo aproveitamento prático</span>
+          </div>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="stat-box">
+            <span class="stat-number">+150.000</span>
+            <span class="stat-label">Alunos Formados</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">120+</span>
+            <span class="stat-label">Dinâmicas Práticas</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">96%</span>
+            <span class="stat-label">Satisfação Comprovada</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Form Card -->
+      <div class="hero-form-wrapper" id="hero-form">
+        <div class="hero-form-card">
+          <div class="form-header">
+            <h3>Quero Desenvolver a Minha Oratória!</h3>
+            <p>Receba o programa completo dos cursos e uma aula teste presencial na Vox Alto de Pinheiros.</p>
+          </div>
+
+          <form id="heroForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" id="name" class="form-input" placeholder="Seu nome completo" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" id="email" class="form-input" placeholder="seuemail@exemplo.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Telefone</label>
+              <input type="tel" id="phone" class="form-input" placeholder="(11) 99999-9999" required>
+            </div>
+
+            <div class="form-group">
+              <label for="profession" class="form-label">Qual sua profissão?</label>
+              <input type="text" id="profession" class="form-input" placeholder="Ex: Advogada, gestor, estudante">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fa-solid fa-paper-plane"></i> QUERO TRANSFORMAR MINHA COMUNICAÇÃO
+            </button>
+
+            <p class="form-disclaimer">
+              <i class="fa-solid fa-lock"></i> Seus dados serão protegidos
+            </p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       METODOLOGIA
+       ========================================================================== -->
+  <section class="metodologia" id="metodologia">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-bolt"></i> O Método Vox</span>
+        <h2 class="section-title">Aprenda na Prática: <span>90% Ação e 10% Teoria</span></h2>
+        <p class="section-subtitle">
+          Na Vox, você não fica sentado apenas ouvindo palestras. Desde o primeiro dia, você sobe ao palco, pratica
+          e recebe feedbacks personalizados para destravar seu potencial comunicativo.
+        </p>
+      </div>
+
+      <div class="metodologia-grid">
+        <!-- Institutional Video Box -->
+        <div class="video-box" data-video-id="vcabTUHBqDU" title="Clique para assistir ao vídeo institucional da Vox">
+          <img src="https://img.youtube.com/vi/vcabTUHBqDU/maxresdefault.jpg" alt="Vídeo Institucional Vox"
+            class="video-thumb">
+          <div class="play-btn-overlay">
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </div>
+
+        <div class="metodologia-list">
+          <div class="metodologia-card">
+            <div class="metodologia-icon">
+              <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="metodologia-info">
+              <h4>Gravação e Análise em Estúdio</h4>
+              <p>Suas apresentações são gravadas para que você assista, identifique vício de linguagem, postura e
+                evolução contínua.</p>
+            </div>
+          </div>
+
+          <div class="metodologia-card">
+            <div class="metodologia-icon">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <div class="metodologia-info">
+              <h4>Feedback Imediato e Construtivo</h4>
+              <p>Nossos mentores oferecem orientações cirúrgicas após cada exercício, garantindo correções imediatas.
+              </p>
+            </div>
+          </div>
+
+          <div class="metodologia-card">
+            <div class="metodologia-icon">
+              <i class="fa-solid fa-masks-theater"></i>
+            </div>
+            <div class="metodologia-info">
+              <h4>Técnicas Teatrais & Neurociência</h4>
+              <p>Exercícios de impostação de voz, dicção, controle emocional e técnicas de palco para domínio de
+                público.</p>
+            </div>
+          </div>
+
+          <div class="metodologia-card">
+            <div class="metodologia-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="metodologia-info">
+              <h4>Ambiente Seguro e Sem Julgamentos</h4>
+              <p>Salas equipadas e turmas colaborativas onde todos compartilham o mesmo objetivo: crescer sem medo de
+                errar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DIFERENCIAIS ALTO DE PINHEIROS
+       ========================================================================== -->
+  <section class="diferenciais" id="diferenciais">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-star"></i> Por que a Vox?</span>
+        <h2 class="section-title">Diferenciais Exclusivos da <span>Vox</span></h2>
+        <p class="section-subtitle">
+          Projetada para oferecer conforto, tecnologia e uma experiência de aprendizado transformadora.
+        </p>
+      </div>
+
+      <div class="diferenciais-grid">
+        <div class="glass-card dif-card">
+          <span class="dif-number">01</span>
+          <h3 class="dif-title">Estrutura de Ponta</h3>
+          <p class="dif-desc">Estúdios com iluminação e microfonação profissional para vivência
+            real de palco.</p>
+        </div>
+
+        <div class="glass-card dif-card">
+          <span class="dif-number">02</span>
+          <h3 class="dif-title">Turmas Reduzidas</h3>
+          <p class="dif-desc">Garantia de que cada aluno pratique exaustivamente a cada aula e receba atenção dedicada
+            do especialista.</p>
+        </div>
+
+        <div class="glass-card dif-card">
+          <span class="dif-number">03</span>
+          <h3 class="dif-title">Networking Qualificado</h3>
+          <p class="dif-desc">Conecte-se com líderes, empresários e profissionais de destaque.</p>
+        </div>
+
+        <div class="glass-card dif-card">
+          <span class="dif-number">04</span>
+          <h3 class="dif-title">Mentoria Individualizada</h3>
+          <p class="dif-desc">Acompanhamento do seu perfil comunicativo específico para potencializar seus pontos
+            fortes.</p>
+        </div>
+      </div>
+
+      <div class="section-cta">
+        <a href="#hero-form" class="btn btn-primary">
+          <i class="fa-solid fa-calendar-check"></i> Quero Agendar Minha Aula Teste
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CURSOS
+       ========================================================================== -->
+  <section class="cursos" id="cursos">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Nossas Formações</span>
+        <h2 class="section-title">Escolha o Caminho Certo para o <span>Seu Momento</span></h2>
+        <p class="section-subtitle">
+          Oferecemos programas presenciais completos adaptados às suas metas de tempo, profundidade e desenvolvimento.
+        </p>
+      </div>
+
+      <!-- Course Tabs Nav -->
+      <div class="course-tabs">
+        <button class="tab-btn active" data-course="academy">Academy (90h)</button>
+        <button class="tab-btn" data-course="master">Master (40h)</button>
+        <button class="tab-btn" data-course="intensivox">Intensivox (16h)</button>
+        <button class="tab-btn" data-course="voxtime">VoxTime</button>
+      </div>
+
+      <!-- Course Content Panels -->
+      <!-- Panel 1: Academy -->
+      <div class="course-content-panel active" id="course-academy">
+        <div class="course-info">
+          <span class="course-badge"><i class="fa-solid fa-crown"></i> O Curso Mais Completo</span>
+          <h3 class="course-title">Academy Vox</h3>
+          <p class="course-hours"><i class="fa-solid fa-clock"></i> Carga Horária: 90 Horas Presenciais</p>
+          <p class="course-desc">
+            A formação definitiva para quem busca maestria absoluta em oratória, linguagem corporal, persuasão,
+            inteligência emocional e retórica. Transforma totalmente sua imagem e presença profissional.
+          </p>
+
+          <div class="course-features-list">
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Mais de 80 dinâmicas e técnicas práticas gravadas</span>
+            </div>
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Desenvolvimento de storytelling, pitch de vendas e palestras</span>
+            </div>
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Controle absoluto de ansiedade e nervosismo em público</span>
+            </div>
+          </div>
+
+          <a href="#hero-form" class="btn btn-primary">
+            <i class="fa-solid fa-arrow-right"></i> Solicitar Grade do Academy
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Panel 2: Master -->
+      <div class="course-content-panel" id="course-master">
+        <div class="course-info">
+          <span class="course-badge"><i class="fa-solid fa-user-tie"></i> Foco Executivo</span>
+          <h3 class="course-title">Master Vox</h3>
+          <p class="course-hours"><i class="fa-solid fa-clock"></i> Carga Horária: 40 Horas Presenciais</p>
+          <p class="course-desc">
+            Treinamento de alto impacto direcionado a executivos, gestores, empreendedores e líderes que precisam
+            conduzir reuniões inspiradoras, negociar acordos e representar suas marcas com poder.
+          </p>
+
+          <div class="course-features-list">
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Comunicação estratégica e liderança persuasiva</span>
+            </div>
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Condução de reuniões, media training e gestão de crises</span>
+            </div>
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Postura executiva e oratória de alta performance</span>
+            </div>
+          </div>
+
+          <a href="#hero-form" class="btn btn-primary">
+            <i class="fa-solid fa-arrow-right"></i> Solicitar Grade do Master
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Panel 3: Intensivox -->
+      <div class="course-content-panel" id="course-intensivox">
+        <div class="course-info">
+          <span class="course-badge"><i class="fa-solid fa-bolt-lightning"></i> Imersão Rápida</span>
+          <h3 class="course-title">Intensivox</h3>
+          <p class="course-hours"><i class="fa-solid fa-clock"></i> Carga Horária: 16 Horas Imersivas</p>
+          <p class="course-desc">
+            Um workshop prático e acelerado em final de semana. Perfeito para quem tem prazos curtos ou eventos
+            iminentes (apresentação de TCC, palestra, entrevista ou pitch de negócios).
+          </p>
+
+          <div class="course-features-list">
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Resultados rápidos para destravar a fala imediatamente</span>
+            </div>
+            <div class="course-feature-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Prática intensa e aplicação imediata de técnicas fundamentais</span>
+            </div>
+          </div>
+
+          <a href="#hero-form" class="btn btn-primary">
+            <i class="fa-solid fa-arrow-right"></i> Ver Próximas Turmas do Intensivox
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Panel 4: VoxTime -->
+      <div class="course-content-panel" id="course-voxtime">
+        <div class="course-info">
+          <span class="course-badge"><i class="fa-solid fa-infinity"></i> Solução Sob Medida</span>
+          <h3 class="course-title">VoxTime</h3>
+          <p class="course-hours"><i class="fa-solid fa-clock"></i> Carga Horária Flexível</p>
+          <p class="course-desc">
+            Formato contínuo e personalizado para necessidades corporativas específicas ou treinamentos particulares
+            executivos.
+          </p>
+
+          <a href="#hero-form" class="btn btn-primary">
+            <i class="fa-solid fa-arrow-right"></i> Falar com Consultor
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DEPOIMENTOS (VÍDEOS E TEXTO)
+       ========================================================================== -->
+  <section class="depoimentos" id="depoimentos">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-heart"></i> Histórias Reais</span>
+        <h2 class="section-title">Veja Quem <span>Transformou a Sua Fala</span></h2>
+        <p class="section-subtitle">
+          Assista aos depoimentos em vídeo dos nossos alunos e descubra a evolução que a Vox proporciona na vida
+          pessoal e profissional.
+        </p>
+      </div>
+
+      <!-- Video Testimonials Grid -->
+      <div class="video-testimonials-grid">
+        <!-- Video 1 -->
+        <div class="testimonial-video-card">
+          <div class="video-card-thumb" data-video-id="LyPYQEklyA8" title="Assistir ao depoimento de aluno">
+            <img src="https://img.youtube.com/vi/LyPYQEklyA8/maxresdefault.jpg" alt="Depoimento Aluno 1">
+            <div class="play-btn-overlay">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="video-card-info">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="video-card-name">Superação da Insegurança</h4>
+            <p class="video-card-role">"Perdi o pavor de falar em público e apresentei meu projeto para mais de 200
+              pessoas."</p>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="testimonial-video-card">
+          <div class="video-card-thumb" data-video-id="6XkwCyAIwsM" title="Assistir ao depoimento de aluno">
+            <img src="https://img.youtube.com/vi/6XkwCyAIwsM/maxresdefault.jpg" alt="Depoimento Aluno 2">
+            <div class="play-btn-overlay">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="video-card-info">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="video-card-name">Evolução Executiva</h4>
+            <p class="video-card-role">"A metodologia prática me deu a segurança para conduzir reuniões
+              internacionais."</p>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="testimonial-video-card">
+          <div class="video-card-thumb" data-video-id="rna1tw_VYbQ" title="Assistir ao depoimento de aluno">
+            <img src="https://img.youtube.com/vi/rna1tw_VYbQ/maxresdefault.jpg" alt="Depoimento Aluno 3">
+            <div class="play-btn-overlay">
+              <i class="fa-solid fa-play"></i>
+            </div>
+          </div>
+          <div class="video-card-info">
+            <div class="rating-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="video-card-name">Impacto na Carreira</h4>
+            <p class="video-card-role">"A Vox destravou meu potencial comunicativo de forma impressionante."</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-cta">
+        <a href="#hero-form" class="btn btn-primary">
+          <i class="fa-solid fa-arrow-right"></i> Quero Ser o Próximo Caso de Sucesso
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ SECTION
+       ========================================================================== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag"><i class="fa-solid fa-circle-question"></i> Tire Suas Dúvidas</span>
+        <h2 class="section-title">Perguntas <span>Frequentes</span></h2>
+        <p class="section-subtitle">
+          Tudo o que você precisa saber sobre a Vox Alto de Pinheiros e nossos cursos presenciais.
+        </p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item active">
+          <button class="faq-question" aria-expanded="true">
+            <span>Onde está localizada a Vox Alto de Pinheiros?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Nossa unidade presencial está estrategicamente localizada no bairro Alto de Pinheiros em São Paulo - SP,
+              em um espaço moderno com estúdio próprio, salas climatizadas e fácil acesso para moradores da Zona Oeste e
+              proximidades.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Preciso ter alguma experiência prévia em oratória?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Não! Nossos cursos recebem desde pessoas com timidez severa que travam ao falar em público até
+              profissionais experientes que desejam refinar sua presença de palco e poder de persuasão.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Como funciona a metodologia prática?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Em todas as aulas presenciais você realiza dinâmicas individuais e em grupo no palco, gravamos sua
+              performance em vídeo e o mentor faz o feedback imediato para aplicar no mesmo instante.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Qual a diferença entre o Academy, Master e Intensivox?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>O <strong>Academy (90h)</strong> é a formação completa e profunda. O <strong>Master (40h)</strong> é
+              focado em comunicação executiva e liderança. O <strong>Intensivox (16h)</strong> é um workshop imersivo de
+              1 final de semana para resultados imediatos.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Como faço para conhecer a Vox e agendar uma aula?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Basta preencher o formulário nesta página! Nossa equipe da Vox Alto de Pinheiros entrará em contato
+              para agendar uma visita guiada e apresentar as instalações sem compromisso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing-cta" aria-labelledby="closing-cta-title">
+    <div class="container closing-cta-grid">
+      <div>
+        <h2 id="closing-cta-title">Pronto para transformar sua comunicação?</h2>
+        <p>Agende uma aula teste e descubra como a Vox pode impulsionar suas ideias e sua carreira.</p>
+      </div>
+      <div class="closing-cta-action">
+        <a href="#hero-form" class="btn btn-primary">
+          <i class="fa-solid fa-calendar-check"></i> Quero Agendar Minha Aula Teste
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo-link footer-logo" aria-label="Vox Alto de Pinheiros - início">
+            <span class="brand-logo brand-logo--footer">
+              <img src="assets/vox2you-logo-branco.png" alt="Vox - Fale. Comunique. Transforme." width="1821"
+                height="436" loading="lazy">
+            </span>
+          </a>
+          <p>A maior e mais completa rede de escolas de oratória da América Latina. Transformando vidas e carreiras
+            através da comunicação de alta performance.</p>
+        </div>
+
+        <div class="footer-unit">
+          <h4 class="footer-title">Vox Alto de Pinheiros</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Alto de Pinheiros, São Paulo - SP</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>(11) 99999-8888</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>altodepinheiros@vox2you.com.br</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Vox Alto de Pinheiros. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification">
+    <div class="toast-icon">
+      <i class="fa-solid fa-circle-check"></i>
+    </div>
+    <div class="toast-text">
+      Sua mensagem foi enviada com sucesso!
+    </div>
+  </div>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
